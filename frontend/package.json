@@ -1,0 +1,12 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "^3.4.0"
+  }
+}

@@ -20,9 +20,14 @@ function add(userInfo) {
   return DB("users").insert(userInfo);
 }
 
+function removeAll(userInfo) {
+  return DB("users").delete();
+}
+
 module.exports = {
   getAll,
   getById,
   getByUsername,
-  add
+  add,
+  removeAll
 };
